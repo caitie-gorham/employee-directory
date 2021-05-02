@@ -1,11 +1,13 @@
 import React from "react";
+import "./Footer.css"
 
 function Footer() {
     return (
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2021 Copyright:
-            <a class="text-dark" href="https://github.com/caitie-gorham">Caitie Gorham</a>
-        </div>
+        <footer className="footer">
+            <div className="footer-div">
+            <a class="text-light" href="https://github.com/caitie-gorham">Caitie Gorham</a>
+            </div>
+        </footer>
     );
 };
 
