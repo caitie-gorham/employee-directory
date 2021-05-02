@@ -1,8 +1,8 @@
-import './App.css';
+import './index.css';
 import Home from "./pages/Home";
-import Header from "./components/Header/";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Wrapper from "./components/Wrapper/index";
 
 function App() {
   return (
