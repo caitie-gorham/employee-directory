@@ -6,7 +6,6 @@ function Table(props) {
         <table>
             <thead>
                 <tr>
-                    <th scope='col'><div>Image</div></th>
                     <th scope="col" type="button" onClick={props.sortByName}>
                         <div type="button">Name <i className="fas fa-sort"></i></div>
                     </th>
